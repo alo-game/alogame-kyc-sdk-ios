@@ -28,9 +28,21 @@ call to `ekycx` and relaying it to the client — see
 
 ## Status
 
-Phase 1 (native core) in progress. Engine wrappers (Cocos/Unity/Unreal/JS)
-are Phase 2+, tracked separately in `alogame-kyc-sdk-engine-wrappers` — not
-in this repo yet.
+Phase 1 (native core) in progress. Engine wrappers live in this repo rather
+than a separate one, matching `v2`'s own precedent of keeping its engine
+bridge alongside the native SDK; easy to split out later. Planning for all of
+them is in `.kiro/specs/alogame-kyc-sdk-engine-wrappers/`.
+
+**Unity** (`unity/`) — UPM package `com.alogame.kycsdk`, installable by git
+URL. Imports into Unity 6000.5.6f1 with zero errors, and both native shims
+compile against the real vendored AAR/xcframework, but **no APK or IPA has
+been built and nothing has run on a device yet**. See `unity/README.md` for
+exactly what was and was not verified.
+
+Unreal and the standalone npm/TypeScript wrapper are Phase 2+, not started.
+(A Cocos Creator plugin exists on the `feat/cocos-plugin` branch — Android
+working on a real device, iOS paused on a crash inside Cocos's own engine
+code — and is not merged here yet.)
 
 iOS deployment target is confirmed at **iOS 15** (`Package.swift`).
 `minSdk` (Android) is still **not yet confirmed** against the live copub
@@ -61,9 +73,13 @@ alogame-kyc-sdk/
 │                           ios/TestApp/README.md
 ├── fixtures/               shared flow vectors + copy deck, owned by the
 │                           xmdt-kyc-flow spec, consumed by both platforms
-└── android/
-    ├── sdk/src/test/kotlin/  Android unit tests (./gradlew :sdk:testDebugUnitTest)
-    └── sample/               Android sample app; see android/sample/README.md
+├── android/
+│   ├── sdk/src/test/kotlin/  Android unit tests (./gradlew :sdk:testDebugUnitTest)
+│   └── sample/               Android sample app; see android/sample/README.md
+└── unity/                  UPM package (com.alogame.kycsdk) — vendors the
+                            compiled AAR + xcframework and wires them into a
+                            game's generated Gradle/Xcode project with no
+                            manual editing; see unity/README.md
 ```
 
 ## Tests
