@@ -369,6 +369,16 @@ extern "C" {
 
 #if defined(__OBJC__)
 
+/// Which logo the screen’s header shows — purely cosmetic, no effect on any
+/// network call or endpoint (those are still selected by <code>AlogameKycEnv</code>
+/// alone). Added for OEG-branded games adopting this SDK; defaults to <code>.alo</code>
+/// so every existing integration is unaffected. <code>@objc</code>-backed for the same
+/// reason as <code>AlogameKycEnv</code> above.
+typedef SWIFT_ENUM(NSInteger, AlogameKycBrand, open) {
+  AlogameKycBrandAlo = 0,
+  AlogameKycBrandOeg = 1,
+};
+
 /// <code>.dev</code> | <code>.prod</code> — selects between the two compile-time base URLs. There
 /// is no way for a Host_App to supply a URL directly (R5.3/R5.3a). See
 /// <code>Internal/Net/Environment.swift</code> for the actual constants.
@@ -479,7 +489,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AlogameKycSd
 /// (can’t cross the bridge at all), so this takes the same two fields
 /// as plain, ObjC-representable parameters instead and builds the
 /// config internally. Behaves identically to <code>initialize(_:)</code>.
+/// Kept as its own selector (rather than adding <code>brand:</code> to it) so no
+/// existing Objective-C call site breaks — a new selector below covers
+/// callers that do want to pick a brand.
 - (void)initializeWithEnv:(enum AlogameKycEnv)env tokenProvider:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(NSString * _Nullable)))tokenProvider;
+/// Same as above, for Objective-C callers that want a non-default <code>brand</code>.
+- (void)initializeWithEnv:(enum AlogameKycEnv)env tokenProvider:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(NSString * _Nullable)))tokenProvider brand:(enum AlogameKycBrand)brand;
 /// <code>uid</code> and <code>sessionToken</code> are required together — they always arrive
 /// from the same game-server response. Switching to a different <code>uid</code>
 /// clears the verified cache and the prefill name for the old one — see
@@ -888,6 +903,16 @@ extern "C" {
 
 #if defined(__OBJC__)
 
+/// Which logo the screen’s header shows — purely cosmetic, no effect on any
+/// network call or endpoint (those are still selected by <code>AlogameKycEnv</code>
+/// alone). Added for OEG-branded games adopting this SDK; defaults to <code>.alo</code>
+/// so every existing integration is unaffected. <code>@objc</code>-backed for the same
+/// reason as <code>AlogameKycEnv</code> above.
+typedef SWIFT_ENUM(NSInteger, AlogameKycBrand, open) {
+  AlogameKycBrandAlo = 0,
+  AlogameKycBrandOeg = 1,
+};
+
 /// <code>.dev</code> | <code>.prod</code> — selects between the two compile-time base URLs. There
 /// is no way for a Host_App to supply a URL directly (R5.3/R5.3a). See
 /// <code>Internal/Net/Environment.swift</code> for the actual constants.
@@ -998,7 +1023,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AlogameKycSd
 /// (can’t cross the bridge at all), so this takes the same two fields
 /// as plain, ObjC-representable parameters instead and builds the
 /// config internally. Behaves identically to <code>initialize(_:)</code>.
+/// Kept as its own selector (rather than adding <code>brand:</code> to it) so no
+/// existing Objective-C call site breaks — a new selector below covers
+/// callers that do want to pick a brand.
 - (void)initializeWithEnv:(enum AlogameKycEnv)env tokenProvider:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(NSString * _Nullable)))tokenProvider;
+/// Same as above, for Objective-C callers that want a non-default <code>brand</code>.
+- (void)initializeWithEnv:(enum AlogameKycEnv)env tokenProvider:(void (^ _Nullable)(NSString * _Nonnull, void (^ _Nonnull)(NSString * _Nullable)))tokenProvider brand:(enum AlogameKycBrand)brand;
 /// <code>uid</code> and <code>sessionToken</code> are required together — they always arrive
 /// from the same game-server response. Switching to a different <code>uid</code>
 /// clears the verified cache and the prefill name for the old one — see
