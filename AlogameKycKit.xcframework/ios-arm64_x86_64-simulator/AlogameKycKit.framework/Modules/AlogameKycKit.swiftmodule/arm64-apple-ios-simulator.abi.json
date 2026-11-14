@@ -2310,7 +2310,50 @@
             "declKind": "EnumElement",
             "usr": "s:13AlogameKycKit0aB6ResultO9cancelledyA2CmF",
             "mangledName": "$s13AlogameKycKit0aB6ResultO9cancelledyA2CmF",
-            "moduleName": "AlogameKycKit"
+            "moduleName": "AlogameKycKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exitRequested",
+            "printedName": "exitRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlogameKycKit.AlogameKycResult.Type) -> AlogameKycKit.AlogameKycResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlogameKycResult",
+                    "printedName": "AlogameKycKit.AlogameKycResult",
+                    "usr": "s:13AlogameKycKit0aB6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlogameKycKit.AlogameKycResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlogameKycResult",
+                        "printedName": "AlogameKycKit.AlogameKycResult",
+                        "usr": "s:13AlogameKycKit0aB6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AlogameKycKit0aB6ResultO13exitRequestedyA2CmF",
+            "mangledName": "$s13AlogameKycKit0aB6ResultO13exitRequestedyA2CmF",
+            "moduleName": "AlogameKycKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -2465,6 +2508,47 @@
               "ObjC"
             ],
             "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "exitRequested",
+            "printedName": "exitRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlogameKycKit.AlogameKycResultStatus.Type) -> AlogameKycKit.AlogameKycResultStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlogameKycResultStatus",
+                    "printedName": "AlogameKycKit.AlogameKycResultStatus",
+                    "usr": "c:@M@AlogameKycKit@E@AlogameKycResultStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlogameKycKit.AlogameKycResultStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlogameKycResultStatus",
+                        "printedName": "AlogameKycKit.AlogameKycResultStatus",
+                        "usr": "c:@M@AlogameKycKit@E@AlogameKycResultStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AlogameKycKit@E@AlogameKycResultStatus@AlogameKycResultStatusExitRequested",
+            "mangledName": "$s13AlogameKycKit0aB12ResultStatusO13exitRequestedyA2CmF",
+            "moduleName": "AlogameKycKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -3397,28 +3481,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 29,
       "value": "\"AlogameKycKit_AlogameKycKit\""
     },
     {
-      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
       "offset": 983,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1510,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/.build\/xcframework-build\/derived-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/AlogameKycKit\/IntermediateBuildFilesPath\/AlogameKycKit.build\/Release-iphonesimulator\/AlogameKycKit-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 57,
@@ -3497,16 +3581,23 @@
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 1349,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 995,
+      "offset": 1365,
       "length": 9,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1384,
+      "length": 13,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
@@ -3514,6 +3605,20 @@
       "offset": 2055,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
+      "kind": "FloatLiteral",
+      "offset": 2373,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2482,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/Internal\/Flow\/FlowController.swift",
@@ -3626,6 +3731,13 @@
       "offset": 3571,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/Internal\/Flow\/FlowState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4256,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/Internal\/Security\/CaptureGuard.swift",
@@ -4184,8 +4296,8 @@
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/alogame-kyc-sdk\/ios\/Sources\/AlogameKycSdk\/Internal\/UI\/Strings.swift",
       "kind": "Dictionary",
       "offset": 778,
-      "length": 3209,
-      "value": "[(\"title\", \"Xác minh danh tính\"), (\"badge.required\", \"BẮT BUỘC\"), (\"reason.required\", \"Vui lòng hoàn thành xác minh danh tính trước khi vào game. Thông tin của bạn chỉ dùng để định danh tài khoản theo quy định.\"), (\"reason.required.compact\", \"Hoàn thành xác minh trước khi vào game. Chỉ mất khoảng 1 phút.\"), (\"reason.optional\", \"Xác minh danh tính theo quy định hiện hành.\"), (\"field.fullName.label\", \"HỌ VÀ TÊN\"), (\"field.fullName.hint\", \"Đúng như trên CCCD\/hộ chiếu\"), (\"field.fullName.placeholder\", \"Họ và tên theo CCCD *\"), (\"field.dob.label\", \"NGÀY SINH\"), (\"field.dob.hint\", \"DD\/MM\/YYYY\"), (\"field.dob.placeholder\", \"Ngày sinh (DD\/MM\/YYYY) *\"), (\"field.phone.label\", \"SỐ ĐIỆN THOẠI\"), (\"field.phone.hint\", \"09xx xxx xxx\"), (\"field.phone.placeholder\", \"Số điện thoại *\"), (\"field.email.label\", \"EMAIL\"), (\"field.email\", \"Email (không bắt buộc)\"), (\"action.sendCode\", \"Gửi mã\"), (\"action.sendCode.disabled\", \"Số điện thoại chưa hợp lệ.\"), (\"action.save\", \"Xác minh và vào game\"), (\"action.retry\", \"Thử lại\"), (\"action.exitGame\", \"Thoát game\"), (\"action.changePhone\", \"Đổi số\"), (\"action.pasteCode\", \"Dán mã\"), (\"action.done\", \"Xong\"), (\"action.resend\", \"Gửi lại mã\"), (\"action.resend.countdown\", \"Gửi lại mã ({seconds}s)\"), (\"otp.title\", \"Nhập mã xác minh\"), (\"otp.sentTo\", \"Mã đã gửi tới {phone}\"), (\"otp.incorrect\", \"Mã không đúng. Còn {n} lần thử.\"), (\"otp.expired\", \"Mã đã hết hạn. Vui lòng gửi lại.\"), (\"otp.exhausted\", \"Bạn đã gửi lại mã tối đa số lần cho phép.\"), (\"otp.support\", \"Không nhận được mã? Liên hệ hỗ trợ\"), (\"consent.parent\", \"Tôi đã đọc và đồng ý với các điều khoản\"), (\"error.consentRequired\", \"Cần đồng ý điều khoản để tiếp tục.\"), (\"error.underAge\", \"Dịch vụ dành cho người từ {minimumAge} tuổi trở lên, nên thông tin của bạn không được lưu.\"), (\"error.phoneTaken\", \"Số điện thoại này đã được liên kết với một tài khoản khác trong game.\"), (\"error.network\", \"Không có kết nối mạng.\"), (\"error.service\", \"Không kết nối được hệ thống xác minh.\"), (\"confirm.exit.required\", \"Bạn cần hoàn tất xác minh để vào game. Thoát game?\"), (\"confirm.exit.optional\", \"Thông tin bạn đã nhập sẽ không được lưu. Đóng?\"), (\"success\", \"Xác minh thành công\")]"
+      "length": 4448,
+      "value": "[(\"title\", \"Xác minh danh tính\"), (\"badge.required\", \"BẮT BUỘC\"), (\"reason.required\", \"Vui lòng hoàn thành xác minh danh tính trước khi vào game. Thông tin của bạn chỉ dùng để định danh tài khoản theo quy định.\"), (\"reason.required.compact\", \"Hoàn thành xác minh trước khi vào game. Chỉ mất khoảng 1 phút.\"), (\"reason.optional\", \"Xác minh danh tính theo quy định hiện hành.\"), (\"field.fullName.label\", \"HỌ VÀ TÊN\"), (\"field.fullName.hint\", \"Đúng như trên CCCD\/hộ chiếu\"), (\"field.fullName.placeholder\", \"Họ và tên theo CCCD *\"), (\"field.dob.label\", \"NGÀY SINH\"), (\"field.dob.hint\", \"DD\/MM\/YYYY\"), (\"field.dob.placeholder\", \"Ngày sinh (DD\/MM\/YYYY) *\"), (\"field.phone.label\", \"SỐ ĐIỆN THOẠI\"), (\"field.phone.hint\", \"09xx xxx xxx\"), (\"field.phone.placeholder\", \"Số điện thoại *\"), (\"field.email.label\", \"EMAIL\"), (\"field.email\", \"Email (không bắt buộc)\"), (\"action.sendCode\", \"Gửi mã\"), (\"action.sendCode.disabled\", \"Số điện thoại chưa hợp lệ.\"), (\"action.save\", \"Xác minh và vào game\"), (\"action.retry\", \"Thử lại\"), (\"action.exitGame\", \"Thoát game\"), (\"action.changePhone\", \"Đổi số\"), (\"action.pasteCode\", \"Dán mã\"), (\"action.done\", \"Xong\"), (\"action.resend\", \"Gửi lại mã\"), (\"action.resend.countdown\", \"Gửi lại mã ({seconds}s)\"), (\"otp.title\", \"Nhập mã xác minh\"), (\"otp.sentTo\", \"Mã đã gửi tới {phone}\"), (\"otp.incorrect\", \"Mã không đúng. Còn {n} lần thử.\"), (\"otp.expired\", \"Mã đã hết hạn. Vui lòng gửi lại.\"), (\"otp.exhausted\", \"Bạn đã gửi lại mã tối đa số lần cho phép.\"), (\"otp.support\", \"Không nhận được mã? Liên hệ hỗ trợ\"), (\"consent.parent\", \"Tôi đã đọc và đồng ý với các điều khoản\"), (\"error.consentRequired\", \"Cần đồng ý điều khoản để tiếp tục.\"), (\"error.underAge\", \"Dịch vụ dành cho người từ {minimumAge} tuổi trở lên, nên thông tin của bạn không được lưu.\"), (\"error.phoneTaken\", \"Số điện thoại này đã được liên kết với một tài khoản khác trong game.\"), (\"error.network\", \"Không có kết nối mạng.\"), (\"error.service\", \"Không kết nối được hệ thống xác minh.\"), (\"error.otpRateLimited\", \"Bạn đã yêu cầu mã quá nhiều lần. Vui lòng thử lại sau ít phút.\"), (\"error.otpUnavailable\", \"Chưa gửi được mã xác minh lúc này. Vui lòng thử lại sau.\"), (\"error.rateLimited\", \"Bạn thao tác quá nhiều lần. Vui lòng thử lại sau ít phút.\"), (\"error.otpAttemptsExceeded\", \"Bạn đã nhập sai mã quá số lần cho phép. Vui lòng thử lại sau.\"), (\"error.sessionUnavailable\", \"Không khởi tạo được phiên xác minh. Vui lòng đóng và thử lại.\"), (\"error.sessionInvalid\", \"Phiên xác minh không còn hiệu lực. Vui lòng đóng và thử lại.\"), (\"error.unknown\", \"Đã xảy ra lỗi không xác định. Vui lòng thử lại sau.\"), (\"error.code\", \"Mã lỗi: {code}\"), (\"action.close\", \"Đóng\"), (\"confirm.exit.required\", \"Bạn cần hoàn tất xác minh để vào game. Thoát game?\"), (\"confirm.exit.optional\", \"Thông tin bạn đã nhập sẽ không được lưu. Đóng?\"), (\"success\", \"Xác minh thành công\")]"
     }
   ]
 }
