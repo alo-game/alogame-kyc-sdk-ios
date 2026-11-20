@@ -3602,21 +3602,21 @@
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/.worktrees\/kyc-release\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 2055,
+      "offset": 2526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/.worktrees\/kyc-release\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
       "kind": "FloatLiteral",
-      "offset": 2373,
+      "offset": 2844,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/thohd\/Dev\/OEG-Workspace\/Workspace\/.worktrees\/kyc-release\/ios\/Sources\/AlogameKycSdk\/AlogameKycSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2953,
       "length": 1,
       "value": "0"
     },
